@@ -1,6 +1,17 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
 body{
     background-image: url(/Assets/DarkCoffe.jpg);
     background-size: cover ; /* Não deixa a imagem ficar se repetindo*/
+}
+
+main{
+    padding: 24px;
 }
 
 #Box-Coffe {
@@ -21,15 +32,35 @@ body{
     border-radius: 16px;
 }
 
-#Box-Coffe h1, h2{
+#Box-Coffe h1{
 
     font-family: 'Playfair Display', serif;
+    margin-bottom: 4px;
     
 }
+
+#Box-Coffe h2{
+
+    font-family: 'Playfair Display', serif;  
+    margin-bottom: 4px;
+    font-size: 24px;
+}
+
+ul{
+    padding-left: 24px;
+    margin-bottom: 24px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
 
 #Box-Coffe p{
 
     font-family: 'Open Sans', sans-serif;
     font-size: 16px; /* Ajuste o tamanho conforme necessário */
     line-height: 1.5; /* Para melhorar a legibilidade */
+    margin-bottom: 12px;
 }
+
