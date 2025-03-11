@@ -1,3 +1,20 @@
+body{
+    background-image: url(/Assets/DarkCoffe.jpg);
+    background-size: cover ; /* Não deixa a imagem ficar se repetindo*/
+}
+
+#Box-Coffe {
+
+    width: 800px;
+    padding: 24px;
+    background-color: #F0E8C2;
+    border-radius: 24px;
+    margin: auto; /* Centraliza a caixa ao meio*/
+    margin-top: 48px;
+    margin-bottom: 100px;
+    box-sizing: border-box; /*Tira a soma dos paddings*/
+}
+
 #Box-Coffe img {
     width: 752px;
     height: 400px;
