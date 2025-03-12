@@ -22,7 +22,7 @@ main{
     border-radius: 24px;
     margin: auto; /* Centraliza a caixa ao meio*/
     margin-top: 48px;
-    margin-bottom: 100px;
+    margin-bottom: 30px;
     box-sizing: border-box; /*Tira a soma dos paddings*/
 }
 
@@ -36,6 +36,7 @@ main{
 
     font-family: 'Playfair Display', serif;
     margin-bottom: 4px;
+    font-size: 30px;
     
 }
 
@@ -49,6 +50,7 @@ main{
 ul{
     padding-left: 24px;
     margin-bottom: 24px;
+    margin-top: 10px;
 }
 
 li{
@@ -62,5 +64,12 @@ li{
     font-size: 16px; /* Ajuste o tamanho conforme necessário */
     line-height: 1.5; /* Para melhorar a legibilidade */
     margin-bottom: 12px;
+    text-align: justify;
+}
+
+footer{
+    color: #F0E8C2;
+    text-align: center;
+    margin-bottom: 48px;
 }
 
