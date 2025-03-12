@@ -26,10 +26,17 @@ main{
     box-sizing: border-box; /*Tira a soma dos paddings*/
 }
 
-#Box-Coffe img {
+#ImageCoffe {
     width: 752px;
     height: 400px;
     border-radius: 16px;
+}
+
+#Image-Coffe{
+
+    width: 200px; /* Define a largura */
+    height: auto; /* Mantém a proporção da altura */
+    float: right;
 }
 
 #Box-Coffe h1{
