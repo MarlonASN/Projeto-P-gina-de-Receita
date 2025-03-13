@@ -6,7 +6,7 @@
 
 
 body{
-    background-image: url(/Assets/DarkCoffe.jpg);
+    background-image: url(./Assets/DarkCoffe.jpg);
     background-size: cover ; /* Não deixa a imagem ficar se repetindo*/
 }
 
